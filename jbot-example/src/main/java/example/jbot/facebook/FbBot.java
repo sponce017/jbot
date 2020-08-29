@@ -71,7 +71,7 @@ public class FbBot extends Bot {
                 new Button().setContentType("text").setTitle("Sure").setPayload("yes"),
                 new Button().setContentType("text").setTitle("Nope").setPayload("no")
         };
-        reply(event, new Message().setText("Hello, I am JBot. Would you like to see more?").setQuickReplies(quickReplies));
+        reply(event, new Message().setText("Hello, I am Saul JBot. Would you like to see more?").setQuickReplies(quickReplies));
     }
 
     /**
